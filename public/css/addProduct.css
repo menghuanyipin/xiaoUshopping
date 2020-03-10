@@ -1,0 +1,288 @@
+.xu-container {
+    width:100%;
+   
+    
+}
+.xu-header {
+    width:100%;
+    height: 80px;
+    background-color:#e9967a;
+    line-height: 80px;
+    padding-left: 50px;
+   
+        
+}
+.xu-header a {
+    color:#fff;
+    font-size: 30px;
+}
+.xu-container h3 {
+    width:100%;
+    font-size: 22px;
+    margin-bottom: 30px;
+    
+   
+    
+    
+}
+.xu-addForm {
+
+   
+    height:auto;
+    margin:0 auto;
+    padding:30px;
+    background-color: #ececec;
+}
+.form-data ul li {
+    display: flex;
+    margin-bottom: 30px;
+}
+.form-data label  {
+    min-width:90px;
+    font-size: 16px;
+    line-height: 30px;
+
+
+}
+.form-data label i {
+    color:#ff0000;
+}
+.form-input  {
+    flex:1;
+    padding-left: 20px;
+    
+}
+.form-input input[type="text"] {
+    width:60%;
+    height: 30px;
+    border:1px solid #ccc;
+    padding-left: 20px;
+}
+input[type="radio"].ace {
+    opacity: 0;
+    cursor:pointer;
+    position: absolute;
+    z-index: 12;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+   
+}
+.cate-choose {
+    border: 1px solid #d5d5d5;
+    padding: 0px 10px;
+    margin-top: 0px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 5px;
+}
+
+.cate-choose label {
+    position: relative;
+}
+
+input[type="radio"].ace+.lbl {
+position: relative;
+z-index: 11;
+display: inline-block;
+margin: 0;
+line-height: 16px;
+min-height: 16px;
+min-width: 16px;
+font-weight: normal;
+font-size:14px;
+color:#393939;
+}
+
+input[type="radio"].ace+.lbl::before {
+    font-family: fontAwesome;
+    font-weight: normal;
+    font-size: 12px;
+    color: #32a3ce;
+    content: "\a0";
+    background-color: #fafafa;
+    border: 1px solid #c8c8c8;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    border-radius: 0;
+    display: inline-block;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    min-width: 16px;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+.add-cate button {
+    color: #fff;
+    background: #438EB9!important;
+    border-color: #438EB9;
+    padding: 8px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 111;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/* 价格 区 */
+.good-priceSection {
+    width: 33.33333333%;
+    float: left;
+}
+.good-priceSection label {
+  
+    
+    text-align: right;
+    height: 32px;
+    line-height: 32px;
+   
+}
+.price-input {
+    
+  
+    display: block;
+    line-height: 32px;
+}
+.price-input input {
+    border-radius: 0!important;
+    color: #666666;
+    background-color: #fff;
+    border: 1px solid #C6C6C6;
+    padding: 5px 4px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-family: inherit;
+}
+/* 是否上架 */
+label[for*="no"] {
+    margin-left: 30px;
+
+}
+.content-input  textarea {
+    resize: none;
+    width:100%;
+    height: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow:auto;
+}
+.xu-footer {
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+.xu-footer button:nth-of-type(2){
+    margin: 0px  40px;
+}
+.xu-footer button 
+{
+    padding: 8px 10px;
+    color:#fff;
+    background-color: #e9967a;
+    border:0;
+    border-radius:3px;
+}
+button.pri {
+    background-color: #438EB9;
+}
+button.info {
+    background-color: #bbb;
+}
+
+
+/* 适配代码 */
+
+@media screen and  (max-width:768px) {
+
+    .xu-header {
+        width: 100%;
+        height: 40px;
+        background-color: #e9967a;
+        line-height: 40px;
+        padding-left: 30px;
+       
+    }
+    .xu-header a {
+        font-size: 16px;
+    }
+   
+    .xu-container h3 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .form-data label{
+        font-size: 14px;
+    }
+    .form-data ul li {
+        display: block;
+    }
+    .form-input {
+        padding-left: 0px;
+    
+
+    }
+    .form-input input[type="text"] {
+        width:85%;
+    }
+    .cate-choose {
+
+        width:45%;
+        border: 1px solid #d5d5d5;
+        padding: 0px 6px;
+        margin-top: 20px;
+        margin-right: 5%;
+        
+      
+    }
+    .add-cate {
+        margin-top: 20px;
+    }
+    .good-priceSection {
+        width: 100%;
+        float: none;
+    }
+    .price-input  input {
+        width:80%;
+    }
+   .set-spec em {
+        display: block;
+        margin-top: 10px;
+    }
+    .content-input textarea {
+        width:85%;
+    }
+    .xu-footer {
+        width: 100%;
+      
+        display: flex;
+        justify-content: center;
+    }
+ 
+
+}
+
+@media screen and (max-width:360px) {
+    .xu-footer button {
+        width:80%;
+    }
+    .xu-footer {
+        flex-wrap: wrap;
+    }
+    .xu-footer button:nth-of-type(2) {
+        margin: 10px 0px;
+    }
+}

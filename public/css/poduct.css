@@ -1,0 +1,108 @@
+.wrap {
+  width:100%;
+  padding: 20px;
+}
+.title {
+  width:100%;
+  border-bottom:1px solid #ccc;
+  font-size:20px ;
+  font-weight: 800;
+}
+.content {}
+.menu  {
+
+  padding: 15px 0px;
+  border-bottom: 1px solid #ccc;
+
+
+
+}
+.menu  .fun-btn {
+   border:1px solid #ccc;
+   border-radius:3px;
+
+}
+.fun-btn a {
+  float: left;
+  padding: 10px 20px;
+  border-right:1px solid #ccc;
+  color:#434343;
+
+  background-color: #f4f4f4;
+
+}
+.fun-btn .br-no {
+  border-right:0; 
+}
+.fun-btn a:hover {
+  background-color: #e7e7e7;
+}
+.search-box   label {
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 40px;
+
+}
+.search-box input {
+  
+  width:175px;
+    height: 30px;
+    border:1px solid #e5e5e5;
+    padding-left: 15px;
+}
+.search-box button {
+
+  width: 50px;
+  height: 30px;
+  background-color: #f4f4f4;
+  border:1px solid #ccc;
+
+
+
+}
+.table-content {
+  width:100%;
+
+  padding-top: 50px;
+
+}
+.table-content  table {
+
+  width:100%;
+  border:1px solid #ccc;
+
+}
+
+.table-content  table  th {
+  border-right: 1px solid #ccc;
+  padding-left: 20px;
+  padding: 12px 5px;
+  text-align:center;
+  font-size:18px;
+  font-weight: 700;
+}
+.table-content  table  td {
+  border:1px solid #ccc;
+  padding-left: 20px;
+  padding: 10px 6px;
+  font-size: 14px;
+}
+.table-content table  td:first-of-type {
+  text-align:center;
+}
+.table-content table  td:not(:first-of-type ){
+  
+  padding-left: 20px;
+}
+table  td:last-of-type   a {
+  color:#434343;
+  padding: 5px  8px;
+  background-color: #ddd;
+}
+table  td:last-of-type   a:hover {
+  background-color: #f4f4f4;
+
+}
+.m-search-btn  {
+  display: none;
+}

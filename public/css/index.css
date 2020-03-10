@@ -1,0 +1,212 @@
+
+
+.wrap {
+    width:100%;
+    height: auto;
+   
+  
+   
+  
+}
+
+/* 头部开始 */
+header {
+   
+    width:100%;
+    height: 60px;
+  
+    
+   
+   
+
+}
+.logo-box{
+   
+    width:220px;
+    height: 60px;
+    background-color: #e9967a;
+   
+   
+
+}
+.logo-box a {
+      display:block;
+      line-height: 60px;
+      text-align:center;
+      font-size: 20px;
+      color: #fff;
+    
+
+}
+.person-service {
+    width:100%;
+    height: 60px;
+    background-color:#fff;
+    padding-right: 50px;
+    
+
+   
+
+}
+.person-service a {
+    color:#424242;
+    font-size: 18px;
+    font-weight: 600;
+}
+.person-info {
+    margin-right: 50px;
+}
+.person-info ,.logout-box {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+   
+}
+.person-info a  img  {
+
+    width: 30px;
+    vertical-align: middle;
+    
+
+}
+i.icon-zhuxiaologout10{
+    vertical-align: middle;
+    font-size: 25px;
+    color:#007acc;
+
+}
+/* 头部结束 */
+
+/* 核心区域开始 */
+.main-section {
+
+    display: flex;
+
+    flex-wrap:nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 300px;
+    
+
+}
+.aside {
+   float: left;
+   width: 220px;
+   background-color: #fff;
+   padding-bottom: 50px;
+  
+}
+.fun-list {
+    padding-top: 30px;
+
+
+
+}
+.fun-list>li {
+    padding-bottom: 20px;
+}
+.fun-list li.active > a {
+    color:#d7e06d;
+}
+.fun-list i {
+    font-size: 20px;
+}
+.fun-list li  {
+    line-height: 40px;
+     font-size: 18px;
+     padding-left: 60px;
+     color:#333;
+     font-weight: 600;
+     cursor:pointer;
+   
+}
+.fun-list a {
+    color:#333;
+}
+/* 下拉列表开始 */
+.drop-down li {
+
+    width:85%;
+    font-size: 14px;
+    padding-left: 15px;
+    background-color: #fff;
+    line-height: 30px;
+
+}
+/* 激活类 */
+.drop-down>li.b  {
+    background-color: #e9967a;
+}
+.drop-down li i {
+    color:darkgreen;
+    font-size: 14px;
+}
+/* 下拉列表结束 */
+.data-display {
+   flex:1;
+   background-color: #f5f5f5;
+
+}
+
+.top-box {
+    width:100%;
+    height: 40px;
+    box-shadow: 0px 1px 0px  #bbb ;
+    line-height: 40px;
+    font-size: 18px;
+    color: sienna;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.bottom-box .content-list{
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+} 
+.content-list-item {
+    width:23%;
+ 
+    background-color: darksalmon;
+    color:#fff;
+    border-radius: 5px;
+    
+}
+.content-list-item .count {
+    padding: 10px;
+    
+}
+.content-list-item .count p {
+
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+
+}
+.content-list-item .count span {
+    font-size: 16px;
+
+    font-weight: 800;
+}
+.btn-detail {
+    display: inline-block;
+
+    width: 100%;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.1);
+    color:#fff;
+    text-align: center;
+}
+.menu-btn {
+    
+    display: none;
+    
+}
+
+/* 核心区域结束 */
+
+

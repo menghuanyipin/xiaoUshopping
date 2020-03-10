@@ -1,0 +1,249 @@
+
+
+
+
+/* 超小屏下适配的代码    */
+@media  screen  and  (max-width:768px){
+
+
+    .wrap {
+        position: relative;
+    }
+    .main-section {
+        position: relative;
+    }
+    .logo-box {
+        display: none;
+    }
+   /* 注销按钮 */
+    header .logout-box {
+       display: none;
+
+    }
+    header .person-info {
+       float: right;
+       margin-right: 0px;
+    }
+    .person-service  {
+        float: none;
+        padding: 0px  20px;
+
+
+    }
+    .menu-btn  {
+        /* 显示 */
+        display: block  ;
+        position:absolute;
+        left:20px;
+        top:-46px;
+        
+      
+    }
+
+   .menu-btn i {
+       color:#333;
+       font-size: 30px;
+      
+   }
+   /* 左侧菜单栏消失 */
+   .aside {
+       display: none;
+       position: absolute;
+       left:0px;
+       top:0px;
+       width:100%;
+       box-shadow: 0px 0px  0px 1px #ddd;
+   }
+   .fun-list > li {
+       width:100%;
+       padding: 0;
+       text-align: center;
+   }
+   .fun-list >li.m-active {
+       background-color: #009688;
+      
+   }
+   .fun-list >li.m-active  a  {
+    color:#fff;
+   }
+   .fun-list .drop-down {
+       display: none;
+   }
+   .menu-btn:hover  + .aside {
+        display: block;
+   }
+
+   .top-box {
+       font-size: 14px;
+   }
+   .bottom-box {
+       width:100%;
+   }
+   .content-list {
+       width:100%;
+   }
+   .bottom-box  .content-list-item {
+       width:100%;
+       margin-bottom: 30px;
+   }
+   .content-list-item .count > p  {
+       font-size: 20px;
+   }
+   .content-list-item .count  > span {
+       font-size: 16px;
+   }
+
+   /* 登录页适配代码开始 */
+   .login-box {
+    width:90%;
+    margin: 0 auto;
+  }
+   /* 登录页适配代码结束 */
+
+
+
+   /* product界面的适配代码开始 */
+   .table-content  table  {
+    min-width:970px;
+
+}
+.table-content  {
+  overflow-x: auto;
+}
+.menu {
+    padding-top: 25px;
+}
+.menu  .fun-btn {
+ float: none;    
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+border:none;
+
+}
+.menu  .fun-btn  a {
+    width:15%;
+    min-width:85px;
+    border:0;
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    font-size: 14px;
+    color:#333;
+}
+
+.menu .search-box {
+    float: none;
+    display: flex;
+    justify-content: center;
+    padding: 30px  0px  0px;
+}
+   /* product界面的适配代码结束 */
+
+}
+/* 小屏设备 */
+@media  screen and  (min-width:768px) and  (max-width:992px)  {
+    .bottom-box {
+        width:100%;
+    }
+    .content-list {
+        width:100%;
+    }
+    .bottom-box  .content-list-item {
+        width:48%;
+        margin-bottom: 30px;
+    }
+    .login-box {
+        width:750px;
+    }
+    /* product的适配代码开始 */
+
+    .table-content  table  {
+        min-width:970px;
+
+    }
+   .table-content  {
+    
+       overflow-x: auto;
+   }
+   
+    /* product的适配代码结束 */
+}
+
+/* 中屏设备 */
+@media  screen and  (min-width:992px)  and (max-width:1200px) {
+    .login-box {
+        width:970px;
+    }
+
+}
+
+/* 大屏设备 */
+@media  screen and  (min-width:1200px) {
+   
+    .login-box {
+        width:400px;
+    }
+
+}
+
+@media  screen  and (max-width:540px) {
+    .menu {
+        border-bottom:0;
+    }
+    .menu  .fun-btn {
+        justify-content: center;
+
+    }
+
+    .menu  .fun-btn  a {
+        width:30%;
+        margin-top: 30px;
+        
+
+    }
+    /* 奇数个按钮加右外边距 */
+    .menu  .fun-btn  a:nth-of-type(odd) {
+
+        margin-right: 30px;
+
+    }
+   .menu  .search-box  {
+        display: none;
+    }
+
+    .m-search-btn {
+      display: block;
+      position: fixed;
+      right:20px;
+      top:230px;
+    }
+    .m-search-btn  a {
+
+        padding: 8px  12px;
+        background-color: darkkhaki;
+        font-size: 14px;
+        color:#333;
+        border-radius:3px;
+
+
+    }
+    .m-search-btn a   i {
+        vertical-align: middle;
+        color:darkred;
+    }
+
+
+    
+}
+
+/* 单独查询540px屏幕   功能按钮变成一行两个   搜素框换位置
+添加向下箭头  
+
+*/
+/* 商品管理页的大屏和中屏一样  992px以下 上面不变
+表格变成响应式     768px以下  上面换成两行*/
+
+
+

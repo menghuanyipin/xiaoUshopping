@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/addProduct.css">
+    <title>添加商品</title>
+</head>
+<body>
+    <div class="xu-container">
+
+        <div class="xu-header">
+            <a href="">小U商城后台管理系统</a>
+        </div>
+       
+        <div class="xu-addForm">
+                <h3>添加产品</h3>
+                <div class="form-data">
+                    <ul>
+                        <li class="clearfix">
+                            <label for="">
+                                <i>*</i>
+                                <span>商品名称:</span>
+                            </label>
+                            <div class="form-input">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">
+                                <i>*</i>
+                                <span>简单描述:</span>
+                            </label>
+                            <div class="form-input">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">
+                                <i>*</i>
+                                <span>关键字:</span>
+                            </label>
+                            <div class="form-input">
+                                <input type="text"  placeholder="请用,分隔关键字">
+                            </div>
+                        </li>
+                        <li>
+                            <label for="">
+                                <i>*</i>
+                                <span>产品分类:</span>
+                            </label>
+                            <div class="form-input  clearfix">
+                                <span class="cate-choose  fl">
+                                    <label for="" >
+                                        <input type="radio" class="ace">
+                                        <span class="lbl">新品发布</span>
+                                    </label>
+                                </span>
+                                <span class="cate-choose fl">
+                                    <label for="" >
+                                        <input type="radio" class="ace">
+                                        <span class="lbl">限时促销</span>
+                                    </label>
+                                </span>
+                                <span class="cate-choose fl">
+                                    <label for="" >
+                                        <input type="radio" class="ace">
+                                        <span class="lbl">特价处理</span>
+                                    </label>
+                                </span>
+                                <span class="add-cate   fl">
+                                    <button>添加分类</button>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="good-priceSection">
+                                <label for="">
+                                    <i>*</i>
+                                    <span>商品原价:</span>
+                                </label>
+                                <div class="price-input">
+                                    <input type="text"  >
+                                    <em class="Prompt">元</em>
+                                </div>
+                            </div>
+                            <div class="good-priceSection">
+                                <label for="">
+                                    <i>*</i>
+                                    <span>商品现价:</span>
+                                </label>
+                                <div class="price-input">
+                                    <input type="text"  >
+                                    <em class="Prompt">元</em>
+                                </div>
+                            </div>
+                            <div class="good-priceSection">
+                                <label for="">
+                                    <i>*</i>
+                                    <span>商品数量:</span>
+                                </label>
+                                <div class="price-input">
+                                    <input type="text"  >
+                                    <em class="Prompt">元</em>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">设置规格:</label>
+                            <div class="form-input  set-spec">
+                                <input type="text"  >
+                                <em>如"颜色,尺寸,型号"中间以英文逗号隔开</em>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">是否上架:</label>
+                            <div class="is-display">
+                                <label for="dis_yes" >
+                                    <input type="radio" class="ace"  id="dis_yes">
+                                    <span class="lbl">是</span>
+                                </label>
+                                <label for="dis_no" >
+                                    <input type="radio" class="ace"  id="dis_no">
+                                    <span class="lbl">否</span>
+                                </label>
+
+
+
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">允许评论:</label>
+                            <div class="is-comment">
+                                <label for="comment_yes" >
+                                    <input type="radio" class="ace"  id="comment_btn">
+                                    <span class="lbl">是</span>
+                                </label>
+                                <label for="comment_no" >
+                                    <input type="radio" class="ace"  id="comment_no">
+                                    <span class="lbl">否</span>
+                                </label>
+
+                               
+
+
+
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <label for="">
+                                <i>*</i>
+                                <span>产品图片:</span>
+                            </label>
+                            <div class="form-input">
+                                <input type="file"  >
+                            </div>
+
+                        </li>
+                        <li class="clearfix">
+                            <label for="">
+                                <i>*</i>
+                                <span>内容介绍:</span>
+                            </label>
+                            <div class="form-input content-input">
+                              <textarea name="" id="" ></textarea>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="xu-footer">
+                    <button class="pri">保存并提交</button>
+                    <button>保存草稿</button>
+                    <button class="info">取消添加</button>
+                </div>
+            
+        </div>
+       
+    </div>
+   
+</body>
+</html>
